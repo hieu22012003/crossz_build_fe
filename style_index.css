@@ -222,3 +222,110 @@ body {
     border-radius: 10px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
+.button {
+    background-color: #4CAF50; /* Green background */
+    border: none; /* Remove borders */
+    color: white; /* White text */
+    padding: 15px 32px; /* Some padding */
+    text-align: center; /* Center the text */
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Make the container an inline block */
+    font-size: 16px; /* Increase font size */
+    margin: 4px 2px; /* Some margin */
+    cursor: pointer; /* Pointer/hand icon */
+    border-radius: 12px; /* Rounded corners */
+    transition: background-color 0.3s, transform 0.3s; /* Smooth transition for hover effects */
+}
+
+.button:hover {
+    background-color: #45a049; /* Darker green background on hover */
+    transform: scale(1.1); /* Slightly increase size on hover */
+}
+.button-link {
+    background-color: #4CAF50; /* Green background */
+    border: none; /* Remove borders */
+    color: white; /* White text */
+    padding: 15px 32px; /* Some padding */
+    text-align: center; /* Center the text */
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Make the container an inline block */
+    font-size: 16px; /* Increase font size */
+    margin: 4px 2px; /* Some margin */
+    cursor: pointer; /* Pointer/hand icon */
+    border-radius: 12px; /* Rounded corners */
+    transition: background-color 0.3s, transform 0.3s; /* Smooth transition for hover effects */
+}
+
+.button-link:hover {
+    background-color: #45a049; /* Darker green background on hover */
+    transform: scale(1.1); /* Slightly increase size on hover */
+}
+/* Additional styles for the timer */
+.timer-container {
+    text-align: center;
+    padding: 20px;
+    background-color: #4CAF50;
+    color: white;
+    font-family: Arial, sans-serif;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    cursor: move;
+    z-index: 1000;
+}
+
+.timer {
+    font-size: 80px;
+    margin: 20px 0;
+}
+
+.timer-button {
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: white;
+    color: #4CAF50;
+    border: none;
+    cursor: pointer;
+}
+
+.timer-button:hover {
+    background-color: #ffb3b3;
+}
+
+.session-buttons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.session-button {
+    background-color: #357038;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.session-button:hover {
+    background-color: #163817;
+}
+
+.session-button.active {
+    background-color: #0d5c0f;
+}
+.show-timer-button {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    background-color: #3b9862;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+.show-timer-button:hover {
+    background-color: #8bc3a7;
+}

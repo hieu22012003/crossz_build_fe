@@ -36,7 +36,7 @@ textarea {
   border-radius: 5px;
 }
 
-button {
+.button1 {
   padding: 12px 20px;
   margin: 10px 5px;
   border: none;
@@ -50,7 +50,7 @@ button {
   left:50px;
 }
 
-button:hover {
+.button1:hover {
   background-color: #2980b9;
 }
 
@@ -382,3 +382,73 @@ animation-delay: 0.5s;
 }
 
 /* Đồng hồ bấm giờ */
+
+/* Additional styles for the timer */
+.timer-container {
+  text-align: center;
+  padding: 20px;
+  background-color: #4CAF50;
+  color: white;
+  font-family: Arial, sans-serif;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  cursor: move;
+  z-index: 1000;
+}
+
+.timer {
+  font-size: 80px;
+  margin: 20px 0;
+}
+
+.timer-button {
+  padding: 10px 20px;
+  font-size: 20px;
+  background-color: white;
+  color: #4CAF50;
+  border: none;
+  cursor: pointer;
+}
+
+.timer-button:hover {
+  background-color: #ffb3b3;
+}
+
+.session-buttons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.session-button {
+  background-color: #357038;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.session-button:hover {
+  background-color: #163817;
+}
+
+.session-button.active {
+  background-color: #0d5c0f;
+}
+.show-timer-button {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  background-color: #3b9862;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  z-index: 1000;
+}
+
+.show-timer-button:hover {
+  background-color: #8bc3a7;
+}
